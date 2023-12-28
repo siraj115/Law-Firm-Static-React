@@ -1,9 +1,11 @@
+import React from "react";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
-    <div>
-        Law Firm Static Design
-    </div>
+    <>
+      <Hero/>
+    </>
   );
 }
 
