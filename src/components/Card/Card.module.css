@@ -1,0 +1,31 @@
+.wrapper{
+    width: 300px;
+    border: 1px solid #3e3e3e;
+    border-radius: 8px;
+}
+.wrapperActive{
+    width: 300px;
+    border: 1px solid #3e3e3e;
+    border-radius: 8px;
+    background-color: #3e3e3e;
+}
+.imageicon{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.content{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+.textcontent{
+    margin-left: 20px;
+    font-size: 14px;
+    color:#585858;
+    width: 260px;
+}
+.button{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
