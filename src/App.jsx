@@ -5,6 +5,8 @@ import Chooseus from "./components/Chooseus/Chooseus";
 import AreaPractice from "./components/AreaPractice/AreaPractice";
 import Happyclients from "./components/Happyclients/Happyclients";
 import OurTeam from "./components/OurTeam/OurTeam";
+import Faq from "./components/Faq/Faq";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <AreaPractice />
       <Happyclients />
       <OurTeam />
+      <Faq />
+      <Newsletter />
     </>
   );
 }

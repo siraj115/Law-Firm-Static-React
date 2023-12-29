@@ -16,3 +16,15 @@
     cursor: pointer;
     position: relative;
 }
+.buttonnews{
+    background-color: var(--color-btn);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    width: 137px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}

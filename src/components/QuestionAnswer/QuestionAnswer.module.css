@@ -1,0 +1,15 @@
+.questionwrapper{
+    margin-top:10px;
+    padding: 10px;
+    border-bottom: 1px solid #585858;
+}
+.question{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.answer{
+    font-size: 14px;
+    color:#585858;
+    margin-bottom: 20px;
+}

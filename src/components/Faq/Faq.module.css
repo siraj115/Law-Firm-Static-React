@@ -1,0 +1,28 @@
+.fullwrap{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 500px;
+    padding: 40px 160px;
+}
+.faq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.leftwrapper{
+    width: 550px;
+    color: #585858;
+}
+.rightWrapper{
+    width: 550px;
+}
