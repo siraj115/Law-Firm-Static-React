@@ -28,6 +28,7 @@
     height: 74px;
     border-radius: 43px;
     border: inherit;
+    padding-left:10px;
 }
 input[type="text"]{
     background-color: var(--color-textbox);

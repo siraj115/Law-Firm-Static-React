@@ -15,7 +15,7 @@ const HeroDiv = ()=>{
             </div>
             <div>
                 <input type="text" className={Styles.inputbox} placeholder="Enter your email address"/>
-                <Button classnm="curve">Let's Talk</Button>
+                {/*<Button classnm="curve">Let's Talk</Button>*/}
             </div>
         </div>
         <div className={Styles.leftWrapper}>
