@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./Card.module.css";
 import Button from "../Button/Button";
-const Card = ({contentprop, img_icon, active})=>{
+const Card = ({contentprop, img_icon, readmore, active})=>{
     const setClass = (!active)?Styles.wrapper:Styles.wrapperActive;
     return<>
         <div className={setClass}>
@@ -10,7 +10,7 @@ const Card = ({contentprop, img_icon, active})=>{
             <div className={Styles.textcontent}>Amet minim mollit non deserunt ullamco est
 sit aliqua dolor do amet sint. Velit officia
 consequatduis enim velit mollit Exer.</div>
-            <div className={Styles.button}><Button classnm="curve">Read More</Button></div>
+            {(readmore) ? <div className={Styles.button}><Button classnm="curve">Read More</Button></div>:''}
         </div>
     </>
 }

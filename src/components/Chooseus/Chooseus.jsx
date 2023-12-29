@@ -10,9 +10,9 @@ const Chooseus =()=>{
             <div>Why Choose us?</div>
         </div>
         <div className={Styles.cardWrapper}>
-            <Card contentprop={"98% Success Rate"} img_icon={GiftIcon}/>
-            <Card contentprop={"100% Success Rate"} img_icon={GiftIcon} active/>
-            <Card contentprop={"100% Success Rate"} img_icon={GiftIcon}/>
+            <Card contentprop={"98% Success Rate"} img_icon={GiftIcon} readmore/>
+            <Card contentprop={"100% Success Rate"} img_icon={GiftIcon} readmore active/>
+            <Card contentprop={"100% Success Rate"} img_icon={GiftIcon} readmore/>
         </div>
     </div>
 }

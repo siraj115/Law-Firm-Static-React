@@ -1,0 +1,29 @@
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+    
+
+    margin:10px;
+    border-radius: 14px;
+}
+.cardWrapperActive{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+    margin:10px;
+    border-radius: 14px;
+    background-color: var(--color-btn);
+    color:#373737;
+}
+.rightwrapper{
+    padding-left: 10px;
+    margin-top:10px;
+}
+.teamname{
+    font-weight: 500;
+}
+.teamcase{
+    font-size: 10px;
+    color: #616161;
+}

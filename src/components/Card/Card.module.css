@@ -20,9 +20,11 @@
 }
 .textcontent{
     margin-left: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     color:#585858;
     width: 260px;
+
 }
 .button{
     margin-left: 20px;

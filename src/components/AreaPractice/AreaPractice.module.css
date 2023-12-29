@@ -1,0 +1,16 @@
+.fullwrap{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 400px;
+    padding: 40px 160px;
+}
+.practice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-weight: 600;
+    font-size: 54px;
+}
